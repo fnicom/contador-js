@@ -1,4 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  background-color: red;
+  font-family: "Londrina Solid", cursive;
+  background-color: #1f1e68;
+  color: #fcfcfc;
+}
+
+.container {
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-top: 10%;
+  border: 1px solid #002fff;
+  background: teal;
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+
+.titulo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 20px;
+}
+
+.contador {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contador .numero {
+  margin-top: 5%;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.botoes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 5%;
+}
+
+button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 50px;
+  width: 100px;
+  height: 50px;
 }
 /*# sourceMappingURL=styles.css.map */
